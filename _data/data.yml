@@ -8,23 +8,23 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Pulkit Kapoor
+    tagline: Data Engineer
+    avatar: bio-photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: pulkit42041@gmail.com
+    phone: 647-870-4981
+    timezone: Toronto/Canada
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: pulkitkapoor.com #do not add http://
+    linkedin: k-pulkit
+    # xing: alandoe
+    github: k-pulkit
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    # twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -34,93 +34,76 @@ sidebar:
       title: Languages
       info:
         - idiom: English
+          level: Fluent
+
+        - idiom: Punjabi
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Hindi
+          level: Native
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
         - item: Cooking
+          link:
+
+        - item: Coding
+          link:
+
+        - item: Learning
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced Data Engineer adept in Python, Scala, SQL, and 
+      Big Data frameworks (Hadoop, Spark). Skilled in AWS and GCP/Azure. 
+      Proven track record in optimizing frameworks, automating processes, 
+      and ensuring data security. Holds a Master's in Cloud Computing from 
+      Lambton College and a Bachelor's in Technology from NIT Jalandhar. 
+      Looking forward to contribute to your organization in meaningful ways
+      by solving challenging problems in the field of big data.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PostGrad in Cloud Computing - Big Data
+        university: Lambton College
+        time: 2021 - 2023
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Gained expertise in leveraging cloud systems to
+          solve real world data engineering puzzles. Gained hand-on
+          experience using AWS and Azure Cloud for big data scenarios.
+      - degree: Bachelors in control engineering
+        university: NIT Jalandhar
+        time: 2012 - 2016
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          My engineering degree that taught me the basics that forms the foundations
+          of whatever I learn by myself.
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Data Engineer
+        time: 2023 - Present
+        company: Scotiabank, Toronto
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
+          As a Data Engineer, my primary responsibilities encompass the design
+          , development, and maintenance of robust data infrastructure. I gained 
+          experience developing big-data frameworks using spark, query / job 
+          optimization, implementing data security, as well as providing support
+          by solving challenging bugs in the ecosystem.
+            - Designed and developed the framework using technologies like Python, Scala,
+              Apache Spark, HDFS, shell scripting.
+            - Fine-tuned and optimized spark jobs to incrementally scan over 100 Tb of data
+              (more than 500k tables across DEV, UAT and PROD)
+            - Debugged and solved production challenges like dealing with different file
+              formats and very big tables.
+            - Reduced processing time by 80% using techniques like fair scheduling, 
+              repartitioning, Scala UDF modules, mul􀆟-threading, retry, timeouts.
+      - role: SCOTIABANK – DATA ANALYST INTERN
         time: 2014 - 2015
         company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
